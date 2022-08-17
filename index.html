@@ -475,11 +475,16 @@ div.right {
     margin-left: 50%;
 }
 
-  .container { width: 960px; margin: 0 auto; height: 220px; }
-    .container [class*='box'] { width:300px; height:220px; float: left; margin-right: 30px; }
+  .container { width: 100%; margin: 0 auto; height: 220px; }
+    .container [class*='box'] { width:30%; height:220px; float: left; margin-right: 2%; }
     .container .box1 { background-color: #6FFA4D; }
     .container .box2 { background-color: #4DD3FA; }
     .container .box3 { background-color: #FA4DF8; margin-right: 0; }
+
+.containers { width: 100%; margin: 0 auto; height: 220px; }
+    .containers [class*='boxs'] { width:40%; height:220px; float: left; margin-right: 30px; }
+    .containers .boxs1 { background-color: #6FFA4D; }
+    .containers .boxs2 { background-color: #4DD3FA; }
 
 
 
@@ -1078,7 +1083,8 @@ height: 30%;
  
  <BR>
   <div ID="CCCR"><h2>Common Causes of Cyber Risks</h2>
- <ul class="b">
+ <ul class="b" style = "text-align: center;
+    list-style-position: inside;">
  <li style="color :black;">Human Lapses</li>
  <li style="color :black;">Poor Passwords</li>
  <li style="color :black;">Poor Network</li>
@@ -1131,9 +1137,9 @@ height: 30%;
  </div>
  </div>
  <br>
-  <img src ="cyber tret.png">
+  <img src ="cyber tret.png" style="display:block; margin-left:auto;margin-right:auto;width:50%;">
   <br>
-    <p  style="color :black;">This graph is showing us the most common ways to stay cyber safe</p>
+    <p  style="color :black;text-align:center;">This graph is showing us the most common ways to stay cyber safe</p>
   <div id="CCA">
 <b><p style="color :black;">These are some of the consequences of having a cyber attack</p></b> 
 <div class="LODsomeContent">
@@ -1174,9 +1180,9 @@ Reputational damage is when an individual or organisation makes accusations agai
     
     <b><H2>Where could cyber risks be relevant within a business?</H2></b>
  
- <div class="container">
-    <div class="box1"><p></p><img width="100" src="holding data.png"><P  style="color :black;">Holding Data</P><P  style="color :black;">Many organistions store sensitive data such as personal information and if someone was to be able to get ahold of that infromation that would be critical.</P></div>
-    <div class="box2"><p></p><img width="100" src="payment.png"><P  style="color :black;">Payments</P><P  style="color :black;">For most businesses you have to pay online which means that transactions are always happening. If someone was able to get access to those payments methods then they would have access to critical information</P></div>
+ <div class="containers">
+    <div class="boxs1"><p></p><img width="80" src="holding data.png"><P  style="color :black;">Holding Data</P><P  style="color :black;">Many organistions store sensitive data such as personal information and if someone was to be able to get ahold of that infromation that would be critical.</P></div>
+    <div class="boxs2"><p></p><img width="80" src="payment.png"><P  style="color :black;">Payments</P><P  style="color :black;">For most businesses you have to pay online which means that transactions are always happening. If someone was able to get access to those payments methods then they would have access to critical information</P></div>
 </div>
 
 <p></p>
@@ -1254,6 +1260,7 @@ Reputational damage is when an individual or organisation makes accusations agai
         <div class="box3"><h3 style="color :black;">Use password managers</h3><P style="color :black;">This is where you can store all of your data, so that in case you ever forget, it is all there.</P></div>  
 </div>
 <p></p>
+<div style="text-align:center;">
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 <span class="fa-stack fa-sm">
   <i class="fa fa-exclamation fa-stack-2x fa-inverse" style="font-size:1.5em; padding-top:.2em"></i>
@@ -1270,7 +1277,7 @@ Reputational damage is when an individual or organisation makes accusations agai
   <i class="fa fa-exclamation fa-stack-2x fa-inverse" style="font-size:1.5em; padding-top:.2em"></i>
   <i class="fa fa-exclamation-triangle fa-stack-2x" style="color:red;"></i>
 </span> Don't use common phrases
-    
+    </div>
     
     
     
@@ -1339,7 +1346,7 @@ Reputational damage is when an individual or organisation makes accusations agai
         <p></p>
 <div class="UnmanagedsomeContent">
             <p class="initial">Unmanaged softwares</p>
-            <p class="hovered">Some information about unmanaged softwares</p>
+            <p class="hovered">If there are any unmanaged softwares that haven't been updated or patched with the latest version then anyone can exploit the lower versions. If it is easily exploitable then anyone can access information and data that they shouldn't</p>
         </div>
         <p></p>
  </div>
@@ -1350,11 +1357,12 @@ Reputational damage is when an individual or organisation makes accusations agai
  <p></p>
  </div>
  <P></P>
+ <div style="text-align:center;">
   <h2><b><i class="fa fa-exclamation-triangle" style="font-size:50px;color:red"></i>  Stay up to date for new threats</b></h2>
 <p  style="color :black;">Make sure to keep an eye on new threats as they are discovered. </p>
  <h2><b><i class="fa fa-exclamation-triangle" style="font-size:50px;color:red"></i> Regularly update your front line defence</b></h2>
 <p  style="color :black;">Regularly update your anti-virus software and also your firewall by enabling regular updates, this will allow them to better defend your business.</p>
-  
+  </div>
     
     
     
@@ -1414,7 +1422,7 @@ Reputational damage is when an individual or organisation makes accusations agai
   </tr>
   <tr>
     <td style="color :black;">There are many ways to choose your cloud provider
-<ul>
+<ul style="text-align: center;list-style-position: inside;">
   <li style="color :black;">Security
     <li style="color :black;">Brand Name
       <li style="color :black;">Speed
@@ -1426,24 +1434,25 @@ Reputational damage is when an individual or organisation makes accusations agai
 </ul></td>
     <td  style="color :black;">How to choose</td>
     <td>
+        <ul style="text-align: center;list-style-position: inside;">
         <li style="color :black;">The size of storage
 <li style="color :black;">Costs
     <li style="color :black;">Accessibility
     <li style="color :black;">Security
     <li style="color :black;">Syncing and Updating 
-    <li style="color :black;">Recovery
+    <li style="color :black;">Recovery</ul>
     </td>
 
   </tr>
   <tr>
-    <td><ul>
+    <td><ul style="text-align: center;list-style-position: inside;">
 <li  style="color :black;">Data is automatically encrypted 
     <li  style="color :black;">Easier to share files
     <li  style="color :black;">No extra costs
     <li  style="color :black;"> Everyone has access to it
 </ul></td>
     <td  style="color :black;">Why you should choose</td>
-    <td><ul>
+    <td><ul style="text-align: center;list-style-position: inside;">
   <li style="color :black;">Speed
     <li style="color :black;">Capacity
       <li style="color :black;">Security Controls
@@ -1452,17 +1461,17 @@ Reputational damage is when an individual or organisation makes accusations agai
 </ul></td>
   </tr>
   <tr>
-    <td><ul>
+    <td><ul style="text-align: center;list-style-position: inside;">
        <li style="color :black;">Internet connectivity
     <li style="color :black;">Performance can differ
      <li style="color :black;">Downtime
 </UL></td>
     <td  style="color :black;">Why you should not choose</td>
-    <td><ul>
+    <td><ul style="text-align: center;list-style-position: inside;">
 <li style="color :black;">Accessibility
     <li style="color :black;">Costs
     <li style="color :black;">Backup/ Recovery
-    <li>
+
 </ul></td>
   </tr>
 </table>
@@ -1636,26 +1645,31 @@ Reputational damage is when an individual or organisation makes accusations agai
  <div id="E"><h3 style="color :black;">Encryption of data</h3><p></p><p style="color :black;">In order for the data you keep to be kept secure there are many ways to do this. One such way is encryption of data. Encryption of the data - ensuring that the data is kept secure until an authorised person accesses the data. It is important to keep the data encrypted because, you are keeping personal data and so if they were ever to go out then you would be liable</p>
   </div>
   <P></P>
-   <div id="G"><h3 style="color :black;">GDPR/ PDPA</h3><p></p><p style="color :black;">An example of data privacy is GDPR/ PDPA  (Personal Data Protection Act), this is a regulation in the EU. It allows individuals to be more in control of their personal information. There are 8 principles within GDPR:
-   1. lawfulness
-   2. Fairness and transparency
-   3. Purpose Limitation 
-   4. Data Minimisation
-   5. Accuracy
-   6. Storage Limitation
-   7. Integrity and Confidentiality
-   8. Accountability
-   
-   There are 9 Obligations for PDPA:
-   1. Consent 
-   2. Purpose 
-   3. Notification
-   4. Access and Correction 
-   5. Openness 
-   6. Protection
-   7. Accuracy 
-   8. Retention
-   9. Transfer
+   <div id="G"><h3 style="color :black;">GDPR/ PDPA</h3><p></p><p style="color :black;">An example of data privacy is GDPR/ PDPA  (Personal Data Protection Act), this is a regulation in the EU. It allows individuals to be more in control of their personal information. 
+   <p style="color:black;">There are 8 principles within GDPR:</p>
+      <ol type = "1" style="text-align: center;list-style-position: inside;color:black;">
+         <li>Lawfulness</li>
+         <li>Fairness and transparency</li>
+         <li>Purpose Limitation </li>
+         <li>Data Minimisation</li>
+         <li>Accuracy</li>
+         <li>Storage Limitation</li>
+         <li>Integrity and Confidentiality</li>
+         <li>Accountability</li>
+      </ol>
+   <p></p>
+   <p style="color:black;">There are 9 Obligations for PDPA:</p>
+   <ol type = "1" style="text-align: center;list-style-position: inside;color:black;">
+         <li>Consent</li>
+         <li>Purpose</li>
+         <li>Notification </li>
+         <li>Access and Correction</li>
+         <li>Openness</li>
+         <li>Protection</li>
+         <li>Accuracy</li>
+         <li>Retention</li>
+         <li>Transfer</li>
+      </ol>
 </p>
   </div>
   <P></P>
@@ -1713,14 +1727,14 @@ Reputational damage is when an individual or organisation makes accusations agai
       </div>
       <div id="column2">
         <h3 style="color :black;">Disaster recovery</h3> 
-        <p>You should always ensure that you regularly do a disaster recovery drill. This is the process of regularly (once every 6 months) go and recover your data from where it is stored in case you ever need to access it when the time comes </p>
+        <p style="color:black;">You should always ensure that you regularly do a disaster recovery drill. This is the process of regularly (once every 6 months) go and recover your data from where it is stored in case you ever need to access it when the time comes </p>
       </div>
       <div id="column3">
         <h3 style="color :black;">Cyber Insurance</h3> 
         <p style="color :black;">There are 2 types of cyber insurance, there is <b>First-Party insurance</b> and there is also <b>Third Party Insurance</b>. <u>First Party insurance</u> allows you to cover your businesses' own assets. This is where the insurance company will pay you for any direct or indirect costs such as if you lose money, data, intellectual property or even customers to cyber crime. They will even pay for the businesses down time and the reputational damage that the cyber crime has caused. While <u>Third-Party Insurance</u> is where it covers your liabilities, covering the assets of others such as your customers. If a hacker ever got a hold of sensitive data and used that sensitive data to do anything such as use their credit card or withdraw money from their account then the insurance company will cover that. I may also cover any investigations, legal defence or even any civil damages and compensation. IF your business doesn't handle sensitive data such as customers data electronically then having the third-party insurance may not be the most ideal</p></div>
 <div id="column4">
-        <h3>Cyber specialist</h3> 
-        <p>Add some info about cyber specialist</p></div>
+        <h3 style="color:black;">Cyber specialist</h3> 
+        <p style="color:black;">Cyber speciliast play a vital role to a business when it comes to securing your network. They monitor, detect, investigate, analyse and respond to any events that occur.  They protect the systems from risks, threats and vunerabilities </p></div>
     </main>
     
     
