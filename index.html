@@ -1057,6 +1057,13 @@ height: 30%;
         color: #000000;
         text-align: center;
       }
+      
+      .parent {
+  text-align: center;
+}
+.parent > ul {
+  display: inline-block;
+}
 </style>
 </head>
 <body>
@@ -1075,25 +1082,34 @@ height: 30%;
 <button class="tablink" onclick="openPage('Summary', this, '1e90ff')">Summary</button>
 
 <div id="Home" class="tabcontent">
-    
+    <h1 style="color:black;text-align:center;">Tanglin Cyber Focus</h1>
+    <h3 style="color:black;text-align:center;"><i>This is cyber security for small businesses</i></h3>
+    <br>
 
-<div id="WICR"><h1>Cyber Risks</h1><p></p><p>Cyber Risks is the loss of confidentiality, integrity of information and data. Losing the repuation of the comapny as a result.</p> <h3>It is important because it lets the risk manager make the decision about the risks associated with it on the daily operation. It helps the business establish the likelihood of any cyber related attacks that they are vulnerable to. It will let the company know where they should spend the time and money. They want to spend it wisely. They want to prevent and mitigate attacks, reduce their costs while increasing revene while ultimately increasing their reputation. 
-</h3></div>
+<div id="WICR"><h1>Cyber Risks</h1><p></p><p><b>Cyber Risks is the loss of confidentiality, integrity of information and data. Losing the repuation of the comapny as a result.</b></p> <p>It is important because it lets the risk manager make the decision about the risks associated with it on the daily operation. It helps the business establish the likelihood of any cyber related attacks that they are vulnerable to. It will let the company know where they should spend the time and money. They want to spend it wisely. They want to prevent and mitigate attacks, reduce their costs while increasing revene while ultimately increasing their reputation. </p>
+</div>
  <br>
  
  <BR>
   <div ID="CCCR"><h2>Common Causes of Cyber Risks:</h2>
- <ul class="b" style = "text-align: center;
-    list-style-position: inside;">
- <li style="color :black;">Human Lapses</li>
- <li style="color :black;">Poor Passwords</li>
- <li style="color :black;">Poor Network</li>
- <li style="color :black;">Network Patch</li>
- <li style="color :black;">Update</li>
- <li style="color :black;">Permissions</li>
- <li style="color :black;">Storage</li>
 
- </ul>
+        <ul style="width:50%; float:left;color:black;height:100px">
+      <li>Human Lapses</li>
+      <li>Poor Passwords</li>
+      <li>Poor Network</li>
+   </ul>
+
+   <ul style="width:50%; float:left;color:black;">
+      <li>Network Patch</li>
+      <li>Updates and Permissions</li>
+      <li>Storage</li>
+   </ul>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
  </div>
  <p></p>
  <p></p>
@@ -1104,34 +1120,34 @@ height: 30%;
 <b><H2>These are some of the main types of cyber threats:</H2></b> <P></P>
  <div class="left">
         <div class="HsomeContent">
-            <p class="initial">Hacking</p>
-            <p class="hovered">Hacking is the act of compromising devices and networks through unauthorised access to an account or computer system.</p>
+            <p class="initial" style="text-align:center;">Hacking</p>
+            <p class="hovered" style="text-align:center;">Hacking is the act of compromising devices and networks through unauthorised access to an account or computer system.</p>
         </div>
         <P></P>
         <div class="MsomeContent">
-            <p class="initial">Malware</p>
-            <p class="hovered">Malware is software that is designed to disrupt, damage, or gain unauthorised access to a computer system. It is the shortened version of malware.</p>
+            <p class="initial" style="text-align:center;">Malware</p>
+            <p class="hovered" style="text-align:center;">Malware is software that is designed to disrupt, damage, or gain unauthorised access to a computer system. It is the shortened version of malware.</p>
         </div>
         <P></P>
 <div class="RsomeContent">
-            <p class="initial">Ransomware</p>
-            <p class="hovered">Ransomware is a type of malware (malicious software) which is specifically designed to block access to a computer system until a sum of money is paid. </p>
+            <p class="initial" style="text-align:center;">Ransomware</p>
+            <p class="hovered" style="text-align:center;">Ransomware is a type of malware (malicious software) which is specifically designed to block access to a computer system until a sum of money is paid. </p>
         </div>
 </div>
     <div class="right">
 <div class="DBsomeContent">
-            <p class="initial">Data Breaches</p>
-            <p class="hovered">Data breaches is where you are using another colleague's computer and reading sensitive information without having the right authorisation. </</p>
+            <p class="initial" style="text-align:center;">Data Breaches</p>
+            <p class="hovered" style="text-align:center;">Data breaches is where you are using another colleague's computer and reading sensitive information without having the right authorisation. </</p>
         </div>
         <P></P>
 <div class="ITsomeContent">
-            <p class="initial">Insider Threat</p>
-            <p class="hovered">Insider threat is a threat to an organisation that comes from the individuals who are inside such as ex-employees, current employees or even contractors who gain inside information about the organisations  practices e.t.c </p>
+            <p class="initial" style="text-align:center;">Insider Threat</p>
+            <p class="hovered" style="text-align:center;">Insider threat is a threat to an organisation that comes from the individuals who are inside such as ex-employees, current employees or even contractors who gain inside information about the organisations  practices e.t.c </p>
         </div>
         <p></p>
 <div class="DOSsomeContent">
-            <p class="initial">Denial of Service</p>
-            <p class="hovered">A DOS (Denial Of Service) is a cyber attack in which a perpetrator seeks to make a network unavailable by sending lots of requests to the server which will disrupt their service. </p>
+            <p class="initial" style="text-align:center;">Denial of Service</p>
+            <p class="hovered" style="text-align:center;">A DOS (Denial Of Service) is a cyber attack in which a perpetrator seeks to make a network unavailable by sending lots of requests to the server which will disrupt their service. </p>
         </div>
  
  </div>
@@ -1139,8 +1155,9 @@ height: 30%;
  <br>
   <img src ="cyber tret.png" style="display:block; margin-left:auto;margin-right:auto;width:50%;">
   <br>
-    <p  style="color :black;text-align:center;">This graph is showing us the most common ways to stay cyber safe.</p>
+    <p  style="color :black;text-align:center;">This graph is showing us the most common ways to stay cyber safe. The information source is XXXXXXXXXXXXXX</p>
   <div id="CCA">
+      <h2>Consequences of Cyber Attacks</h2>
 <b><p style="color :black;">These are some of the consequences of having a cyber attack:</p></b> 
 <div class="LODsomeContent">
             <p class="initial" style = "text-align:center;">Loss of Data</p>
@@ -1246,8 +1263,8 @@ Reputational damage is when an individual or organisation makes accusations agai
 </style>
 
 <div class="container">
-    <div class="box1"><h3  style="color :black;">Use 2FA</h3><P  style="color :black;">This is where whenever you try and sign into a platform, that platform will send you a code that you enter into your device. This will make sure that no one else can sign in and act like they are you. </.</P></div>
-       <div class="box2"><H3 style="color :black;">Have a password policy</H3><UL>
+    <div class="box1"><h3  style="color :black;text-align:center;">Use 2FA</h3><P  style="color :black;">This is where whenever you try and sign into a platform, that platform will send you a code that you enter into your device. This will make sure that no one else can sign in and act like they are you. </.</P></div>
+       <div class="box2"><H3 style="color :black; text-align:center;">Have a password policy</H3><UL>
 <li style="color :black;">Minimum 10 character
     <li style="color :black;">Symbols
     <li style="color :black;">Special characters
@@ -1257,7 +1274,7 @@ Reputational damage is when an individual or organisation makes accusations agai
     <li style="color :black;">Shouldn't have personal data 
 </UL></div>
 
-        <div class="box3"><h3 style="color :black;">Use password managers</h3><P style="color :black;">This is where you can store all of your data, so that in case you ever forget, it is all there.</P></div>  
+        <div class="box3"><h3 style="color :black;text-align:center;">Use password managers</h3><P style="color :black;">This is where you can store all of your data, so that in case you ever forget, it is all there.</P></div>  
 </div>
 <p></p>
 <div style="text-align:center; color:black;">
@@ -1315,38 +1332,38 @@ Reputational damage is when an individual or organisation makes accusations agai
   <p></p>
   <div id="Weakness">
   <h2>What are some the vunerabilities and some of the weaknesses?</h2>
-  <p  style="color :black;">This is a flaw in the hardware, software which is compromised by a threat which can result in a security breach.</p>
+  <p  style="color :black;text-align:center;">This is a flaw in the hardware, software which is compromised by a threat which can result in a security breach.</p>
   <div class="left">
         <div class="FirewallsomeContent">
-            <p class="initial">Firewall Issue</p>
-            <p class="hovered">A firewall is a device that monitors all of the incoming and outgoing traffic. It has a set of rules of which devices to allow on the network and which not to, blocking any device which does not meet the criteria. Without a firewall, any device will be able to connect to the network.</p></p>
+            <p class="initial" style = "text-align:center;">Firewall Issue</p>
+            <p class="hovered" style = "text-align:center;">A firewall is a device that monitors all of the incoming and outgoing traffic. It has a set of rules of which devices to allow on the network and which not to, blocking any device which does not meet the criteria. Without a firewall, any device will be able to connect to the network.</p></p>
         </div>
         <P></P>
         <div class="GettingsomeContent">
-            <p class="initial">Getting access to a physical device</p>
-            <p class="hovered">Gaining physical access to a device is bad because that device may contain sensitive data that should not go out. One way to reduce this is when you walk away from your desk, make sure to lock it.</p>
+            <p class="initial" style = "text-align:center;">Getting access to a physical device</p>
+            <p class="hovered" style = "text-align:center;">Gaining physical access to a device is bad because that device may contain sensitive data that should not go out. One way to reduce this is when you walk away from your desk, make sure to lock it.</p>
         </div>
         <P></P>
 <div class="UnauthorisedsomeContent">
-            <p class="initial">Unauthorised devices connected to the network</p>
-            <p class="hovered">If you have unauthorised devices on your network, that is bad because your network contains a lot of resources that are sensitive and if they get access to the network, then they would have access to all of the data. In order to protect yourself use a firewall.</p>
+            <p class="initial" style = "text-align:center;">Unauthorised devices connected to the network</p>
+            <p class="hovered" style = "text-align:center;">If you have unauthorised devices on your network, that is bad because your network contains a lot of resources that are sensitive and if they get access to the network, then they would have access to all of the data. In order to protect yourself use a firewall.</p>
         </div>
         <p></p>
 </div>
     <div class="right">
 <div class="DownloadingsomeContent">
-            <p class="initial">Downloading a virus</p>
-            <p class="hovered">There are many ways to download a virus such as donwloading a suspicious app from the internet or even downloaidng a document from your email, they are hard to spot but once they are downloaded then they will have access to your network or even your device.   </p>
+            <p class="initial" style = "text-align:center;">Downloading a virus</p>
+            <p class="hovered" style = "text-align:center;">There are many ways to download a virus such as donwloading a suspicious app from the internet or even downloaidng a document from your email, they are hard to spot but once they are downloaded then they will have access to your network or even your device.   </p>
         </div>
         <P></P>
 <div class="WirelesssomeContent">
-            <p class="initial">Wireless Access</p>
-            <p class="hovered">Wireless access is when someone externally is controlling your device, they may not be in the same building, country, continent as you. They will be able to control your movements on your computer, allowing them to have full control allows them to do all sorts of activities.</p></p>
+            <p class="initial" style = "text-align:center;">Wireless Access</p>
+            <p class="hovered" style = "text-align:center;">Wireless access is when someone externally is controlling your device, they may not be in the same building, country, continent as you. They will be able to control your movements on your computer, allowing them to have full control allows them to do all sorts of activities.</p></p>
         </div>
         <p></p>
 <div class="UnmanagedsomeContent">
-            <p class="initial">Unmanaged softwares</p>
-            <p class="hovered">If there are any unmanaged softwares that haven't been updated or patched with the latest version then anyone can exploit the lower versions. If it is easily exploitable then anyone can access information and data that they shouldn't.</p>
+            <p class="initial" style = "text-align:center;">Unmanaged softwares</p>
+            <p class="hovered" style = "text-align:center;">If there are any unmanaged softwares that haven't been updated or patched with the latest version then anyone can exploit the lower versions. If it is easily exploitable then anyone can access information and data that they shouldn't.</p>
         </div>
         <p></p>
  </div>
@@ -1358,7 +1375,7 @@ Reputational damage is when an individual or organisation makes accusations agai
  </div>
  <P></P>
  <div style="text-align:center;">
-  <h2><b><i class="fa fa-exclamation-triangle" style="font-size:50px;color:red"></i>  Stay up to date for new threats</b></h2>
+  <h2><b><i class="fa fa-exclamation-triangle" style="font-size:50px;color:red"></i>  Stay up to date to avoid new threats</b></h2>
 <p  style="color :black;">Make sure to keep an eye on new threats as they are discovered. </p>
  <h2><b><i class="fa fa-exclamation-triangle" style="font-size:50px;color:red"></i> Regularly update your front line defence</b></h2>
 <p  style="color :black;">Regularly update your anti-virus software and also your firewall by enabling regular updates, this will allow them to better defend your business.</p>
@@ -1422,7 +1439,8 @@ Reputational damage is when an individual or organisation makes accusations agai
   </tr>
   <tr>
     <td style="color :black;">There are many ways to choose your cloud provider
-<ul style="text-align: center;list-style-position: inside;">
+<div class="parent">
+<ul style="text-align: center;">
   <li style="color :black;">Security
     <li style="color :black;">Brand Name
       <li style="color :black;">Speed
@@ -1431,48 +1449,53 @@ Reputational damage is when an individual or organisation makes accusations agai
             <li style="color :black;">Easiness
               <li style="color :black;">Costs
                 <br>
-</ul></td>
+</ul></div></td>
     <td  style="color :black;"><b>How to choose?</b></td>
     <td>
-        <ul style="text-align: center;list-style-position: inside;">
+        <div class="parent">
+<ul style="text-align: center;">
         <li style="color :black;">The size of storage
 <li style="color :black;">Costs
     <li style="color :black;">Accessibility
     <li style="color :black;">Security
     <li style="color :black;">Syncing and Updating 
     <li style="color :black;">Recovery</ul>
-    </td>
+  </div>  </td>
 
   </tr>
   <tr>
-    <td><ul style="text-align: center;list-style-position: inside;">
+    <td><div class="parent">
+<ul style="text-align: center;">
 <li  style="color :black;">Data is automatically encrypted 
     <li  style="color :black;">Easier to share files
     <li  style="color :black;">No extra costs
     <li  style="color :black;"> Everyone has access to it
-</ul></td>
+</ul></div></td>
     <td  style="color :black;"><b>Why you should choose it?</b></td>
-    <td><ul style="text-align: center;list-style-position: inside;">
+    <td><div class="parent">
+<ul style="text-align: center;">
   <li style="color :black;">Speed
     <li style="color :black;">Capacity
       <li style="color :black;">Security Controls
-        <li style="color :black;">It is not dependant on the internet 
+        <li style="color :black;">Not dependant on the internet 
                 <br>
-</ul></td>
+</ul></div></td>
   </tr>
   <tr>
-    <td><ul style="text-align: center;list-style-position: inside;">
+    <td><div class="parent">
+<ul style="text-align: center;">
        <li style="color :black;">Internet connectivity
     <li style="color :black;">Performance can differ
      <li style="color :black;">Downtime
-</UL></td>
+</UL></div></td>
     <td  style="color :black;"><b>Why you should not choose it?</b></td>
-    <td><ul style="text-align: center;list-style-position: inside;">
+    <td><div class="parent">
+<ul style="text-align: center;">
 <li style="color :black;">Accessibility
     <li style="color :black;">Costs
     <li style="color :black;">Backup/ Recovery
 
-</ul></td>
+</ul></div></td>
   </tr>
 </table>
     
@@ -1527,31 +1550,10 @@ Reputational damage is when an individual or organisation makes accusations agai
     
     <b><h1 style="color:black;">Anti-Virus Systems</h1></b>
       <h4 style="color :black;">An Anti-Virus System is a computer program that is used to detect, prevent and protect against malwares.</h4>
+      <p style="color :black;">There are 3 types of packages - free off the shelf packages, purchase off the shelf packages and pre installed packages</p>
+      <p style="color :black;">Free Off the Shelf Packages are free and available on the internet for download. Purchase off the Shelf Packages are available for download from the internet but a purchase is required. Pre installed packages are automatically installed in the operating system.</p>
       <br>
-      <h2 style="color :black;">There are various ways to protect against malwares. Here are the three types of packages, with some examples of each type.</h2>
-      <div class="container">
-    <div class="box1"><h3 style="color :black;">Free Off the Shelf Packages</h3><ul>
-    <li style="color :black;"><a href="https://www.avira.com/">Avira Anti-Virus Software</a>
-    <li style="color :black;"><a href="https://www.bitdefender.com/solutions/free.html">BitDefender Anti-Virus Free Edition</a>
-      <li style="color :black;"><a href="https://www.adaware.com/">Adaware  software</a>
-       <li style="color :black;"><a href="https://www.pandasecurity.com/en/">Panda</a> 
-       <li style="color :black;"><a href="https://www.avast.com/en-sg/index#pc">Avast </a>
-       <li style="color :black;"><a href="https://www.avg.com/en-ww/homepage#pc">AVG</a>  
-
-</ul>      </div>
-    <div class="box2"><H3 style="color :black;">Purchase off the Shelf Packages</H3><ul>
-        <li style="color :black;"><a href="https://sg.norton.com/">Norton</a>
-    <li style="color :black;"><a href="https://www.mcafee.com/en-sg/antivirus/mcafee-total-protection.html">Mcafee</a>
-    <li style="color :black;"><a href="https://www.bitdefender.com/solutions/antivirus.html">Bit-Defender Plus</a>
-    <li style="color :black;"><a href="https://www.f-secure.com/en/home/products/safe#:~:text=F%E2%80%91Secure%20SAFE%20is%20an,your%20online%20shopping%20and%20banking.">F-Secure SAFE</a>
-     <li style="color :black;"><a href="Kaspersky Internet Security">Kaspersky Internet Security</a>
-       <li style="color :black;"><a href="https://www.bitdefender.com/solutions/internet-security.html">Bitdefender Internet Security</a>
-
-</ul></div>
-    <div class="box3"><h3 style="color :black;">Pre-installed Packages</h3><ul>
-      <li style="color :black;"><a href="https://www.google.com/search?q=windows+defender&rlz=1C1GCEU_enSG962SG962&oq=windows+defender&aqs=chrome.0.69i59j0i512l5j69i60l2.49877j0j4&sourceid=chrome&ie=UTF-8">Windows Defender</a>
-</ul></div>  
-</div>
+      
      <p></p>
 <div id="FAV">
  <b><P2 style="color:black;">These are some of the features of anti virus systems</P2></b>
@@ -1595,11 +1597,36 @@ Reputational damage is when an individual or organisation makes accusations agai
             <p class="hovered" style = "text-align:center;">A password manager is a computer program that allows the user to be able to store, generate and manage their passwords for local and online services. It stores all of the passwords in an encrypted database and calculates it on demand. </p></p>
         </div>
         <p></p>
+         </div>
+    
+    
 <P></P>
+<h4 style="color :black;">There are various ways to protect against malwares. Here are some examples of the three types of packages.</h4>
+      <div class="container">
+    <div class="box1"><h3 style="color :black;">Free Off the Shelf Packages</h3><ul>
+    <li style="color :black;"><a href="https://www.avira.com/">Avira Anti-Virus Software</a>
+    <li style="color :black;"><a href="https://www.bitdefender.com/solutions/free.html">BitDefender Anti-Virus Free Edition</a>
+      <li style="color :black;"><a href="https://www.adaware.com/">Adaware  software</a>
+       <li style="color :black;"><a href="https://www.pandasecurity.com/en/">Panda</a> 
+       <li style="color :black;"><a href="https://www.avast.com/en-sg/index#pc">Avast </a>
+       <li style="color :black;"><a href="https://www.avg.com/en-ww/homepage#pc">AVG</a>  
+
+</ul>      </div>
+    <div class="box2"><H3 style="color :black;">Purchase off the Shelf Packages</H3><ul>
+        <li style="color :black;"><a href="https://sg.norton.com/">Norton</a>
+    <li style="color :black;"><a href="https://www.mcafee.com/en-sg/antivirus/mcafee-total-protection.html">Mcafee</a>
+    <li style="color :black;"><a href="https://www.bitdefender.com/solutions/antivirus.html">Bit-Defender Plus</a>
+    <li style="color :black;"><a href="https://www.f-secure.com/en/home/products/safe#:~:text=F%E2%80%91Secure%20SAFE%20is%20an,your%20online%20shopping%20and%20banking.">F-Secure SAFE</a>
+     <li style="color :black;"><a href="Kaspersky Internet Security">Kaspersky Internet Security</a>
+       <li style="color :black;"><a href="https://www.bitdefender.com/solutions/internet-security.html">Bitdefender Internet Security</a>
+
+</ul></div>
+    <div class="box3"><h3 style="color :black;">Pre-installed Packages</h3><ul>
+      <li style="color :black;"><a href="https://www.google.com/search?q=windows+defender&rlz=1C1GCEU_enSG962SG962&oq=windows+defender&aqs=chrome.0.69i59j0i512l5j69i60l2.49877j0j4&sourceid=chrome&ie=UTF-8">Windows Defender</a>
+</ul></div>  
+</div>
  <br>
- </div>
-    
-    
+
     
     
     
@@ -1645,9 +1672,9 @@ Reputational damage is when an individual or organisation makes accusations agai
   </div>
   <P></P>
    <div id="G"><h3 style="color :black;">GDPR/ PDPA</h3><p></p><p style="color :black;">An example of data privacy is GDPR/ PDPA  (Personal Data Protection Act), this is a regulation in the EU. It allows individuals to be more in control of their personal information. 
-   <p style="color:black;">There are 8 principles within GDPR:
-      <ol type = "1" style="text-align: center;list-style-position: inside;color:black;">
-         <li>Lawfulness</li>
+    <ul style="width:50%; float:left;color:black;">
+         <p style="color:black;">There are 8 principles within GDPR:</p>
+      <li>Lawfulness</li>
          <li>Fairness and transparency</li>
          <li>Purpose Limitation </li>
          <li>Data Minimisation</li>
@@ -1655,11 +1682,11 @@ Reputational damage is when an individual or organisation makes accusations agai
          <li>Storage Limitation</li>
          <li>Integrity and Confidentiality</li>
          <li>Accountability</li>
-      </ol>
-   <p></p>
-   <p style="color:black;">There are 9 Obligations for PDPA:</p>
-   <ol type = "1" style="text-align: center;list-style-position: inside;color:black;">
-         <li>Consent</li>
+   </ul>
+
+   <ul style="width:50%; float:left;color:black;">
+          <p style="color:black;">There are 9 Obligations for PDPA:</p>
+     <li>Consent</li>
          <li>Purpose</li>
          <li>Notification </li>
          <li>Access and Correction</li>
@@ -1668,11 +1695,13 @@ Reputational damage is when an individual or organisation makes accusations agai
          <li>Accuracy</li>
          <li>Retention</li>
          <li>Transfer</li>
-      </ol>
+   </ul>
+ 
+     
 </p>
   </div>
   <P></P>
-  <div id="C"><h3 style="color :black;">Storing on the cloud</h3><p></p><p style="color :black;">If you ever store your data on the cloud then you need to not only be aware about where your data is stored locally, but you also need to be aware where your data is stored on the server in the cloud, this is because in different countries there are different rules and regulations. Whatever data that you store on the cloud is available for your cloud provider to see, so nothing is private when you upload something to the cloud. If you ever delete anything then your cloud provider will retain that data for at least 3 months in case you need any of the data back. </p> </div>
+  <div id="C"><h3 style="color :black;">Storing on the cloud</h3><p></p><p style="color :black;">If you ever store your data on the cloud then you need to know about storage, retention and security. You need to be aware where your data is stored locally, but you also need to be aware where your data is stored on the server in the cloud, this is because in different countries there are different rules and regulations. Whatever data that you store on the cloud is available for your cloud provider to see, so nothing is private when you upload something to the cloud. If you ever delete anything then your cloud provider will retain that data for at least 3 months in case you need any of the data back. </p> </div>
   <P></P>
   <div id="R"><h3 style="color :black;">Retention of data</h3><p></p><p style="color :black;">After a user has left your company or an employee then there should be a period of how long they should retain the data for. Usually the time that they should retain the data for is about 6 months. Retaining data longer than necessary takes up unnecessary storage space and costs more than needed. However, retaining important data helps prevent excessive expenditure in the future in case you have to look for a file for legal or organizational reasons.</p> </div>
   <P></P>
@@ -1712,30 +1741,33 @@ Reputational damage is when an individual or organisation makes accusations agai
 
 <div id="Cyber_Incidents" class="tabcontent">
     
-    <main id="boxesit">
+    
       <h2 style="color :black;">What to do when you have a cyber incident? </h2>
       <p style="color :black;">A cyber incident is an event that could jeopardize the confidentiality, integrity, or availability of digital information or information systems.</p>
-      <div id="column1">
-    <h3 style="color :black;">Information Assets</h3> 
-              <p style="color :black;"> Information assets is a way to manage your organisations information assets. </p>
+      
+      <h4 style="color :black;">The two things that are very important are information assets and data recovery.</h4>
+      <h5 style="color :black;">Information assets</h5>
+       <p style="color :black;"> Information assets is a way to manage your organisations information assets. </p>
               <p style="color :black;">What should be in the register?</p>
              <li style="color :black;">Hardware</li>
        <li style="color :black;">Software</li>
        <li style="color :black;">Data assets</li>
        <p style="color :black;">You should always make sure that you do updates and patches so that it can removed any bugs or any gaps in the security.</p>
 
-      </div>
-      <div id="column2">
-        <h3 style="color :black;">Disaster recovery</h3> 
-        <p style="color:black;">You should always ensure that you regularly do a disaster recovery drill. This is the process of regularly (once every 6 months) go and recover your data from where it is stored in case you ever need to access it when the time comes. </p>
-      </div>
-      <div id="column3">
-        <h3 style="color :black;">Cyber Insurance</h3> 
-        <p style="color :black;">There are 2 types of cyber insurance, there is <b>First-Party insurance</b> and there is also <b>Third Party Insurance</b>. <u>First Party insurance</u> allows you to cover your businesses' own assets. This is where the insurance company will pay you for any direct or indirect costs such as if you lose money, data, intellectual property or even customers to cyber crime. They will even pay for the businesses down time and the reputational damage that the cyber crime has caused. While <u>Third-Party Insurance</u> is where it covers your liabilities, covering the assets of others such as your customers. If a hacker ever got a hold of sensitive data and used that sensitive data to do anything such as use their credit card or withdraw money from their account then the insurance company will cover that. I may also cover any investigations, legal defence or even any civil damages and compensation. IF your business doesn't handle sensitive data such as customers data electronically then having the third-party insurance may not be the most ideal.</p></div>
-<div id="column4">
-        <h3 style="color:black;">Cyber specialist</h3> 
-        <p style="color:black;">Cyber speciliast play a vital role to a business when it comes to securing your network. They monitor, detect, investigate, analyse and respond to any events that occur.  They protect the systems from risks, threats and vunerabilities. </p></div>
-    </main>
+        <h5 style="color :black;">Disaster recovery</h5>
+      <p style="color:black;">You should always ensure that you regularly do a disaster recovery drill. This is the process of regularly (once every 6 months) go and recover your data from where it is stored in case you ever need to access it when the time comes. </p>
+     
+     
+     <h4 style="color :black;">This must all be regularly tested.</h4>
+     
+     <h4 style="color :black;">However, if you need to remediate a cyber incident. You should look at cyber insurance and cyber specialists.</h4>
+      <h5 style="color :black;">Cyber Insurance</h5>
+      <p style="color :black;">There are 2 types of cyber insurance, there is <b>First-Party insurance</b> and there is also <b>Third Party Insurance</b>. <u>First Party insurance</u> allows you to cover your businesses' own assets. This is where the insurance company will pay you for any direct or indirect costs such as if you lose money, data, intellectual property or even customers to cyber crime. They will even pay for the businesses down time and the reputational damage that the cyber crime has caused. While <u>Third-Party Insurance</u> is where it covers your liabilities, covering the assets of others such as your customers. If a hacker ever got a hold of sensitive data and used that sensitive data to do anything such as use their credit card or withdraw money from their account then the insurance company will cover that. I may also cover any investigations, legal defence or even any civil damages and compensation. IF your business doesn't handle sensitive data such as customers data electronically then having the third-party insurance may not be the most ideal.</p>
+    
+        <h5 style="color :black;">Cyber Specialist</h5>
+        <p style="color:black;">Cyber specialist play a vital role to a business when it comes to securing your network. They monitor, detect, investigate, analyse and respond to any events that occur.  They protect the systems from risks, threats and vunerabilities. </p>
+    
+      
     
     
     
