@@ -466,6 +466,37 @@ width: 80%;
 height: 30%;
 }
 
+
+.InvsomeContent {
+width: 80%;
+margin-left: 100px;
+border: 2px solid black;
+border-radius: 10px;
+text-align: left;
+padding: 0px;
+color: black;
+height: 30%;
+-webkit-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-ms-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
+
+.InvsomeContent .hovered { display: none; }
+.InvsomeContent:hover .hovered { display: block; }
+.InvsomeContent:hover .initial { display: none; }
+
+.InvsomeContent:hover {
+background: rgba(209, 16, 16, 1);
+border: 2px solid black;
+overflow: hidden;
+color: white;
+width: 80%;
+height: 30%;
+}
+
+
 div.left {
     width: 50%;
     float: left;
@@ -995,16 +1026,6 @@ height: 30%;
   height:60%;
 }
 #C {
-  background-color: #F70D1A;
-  width: 80%;
-  border: 5px Black;
-  padding: 2%;
-  margin: 20px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align:center;
-}
-#R {
   background-color: #F62817;
   width: 80%;
   border: 5px Black;
@@ -1014,8 +1035,18 @@ height: 30%;
   margin-left: auto;
   text-align:center;
 }
+#R {
+  background-color:  #E42217;
+  width: 80%;
+  border: 5px Black;
+  padding: 2%;
+  margin: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align:center;
+}
 #S {
-  background-color: #E42217;
+  background-color:  #F70D1A;
   width: 80%;
   border: 5px Black;
   padding: 2%;
@@ -1103,12 +1134,15 @@ height: 30%;
       <li>Human Lapses</li>
       <li>Poor Passwords</li>
       <li>Poor Network</li>
+      <li>Data Breaches</li>
    </ul>
 
    <ul style="width:50%; float:left;color:black;">
       <li>Network Patch</li>
       <li>Updates and Permissions</li>
       <li>Storage</li>
+      <li>Employee Behaviour</li>
+      <li>Using personal devices for work</li>
    </ul>
      <br>
      <br>
@@ -1190,6 +1224,11 @@ Reputational damage is when an individual or organisation makes accusations agai
             <p class="hovered" style = "text-align:center;">A breach of data privacy is when there is an accidental loss, alteration or unauthorised disclosure of personal data. An example is when 2 people have the same name but the small business gives the wrong email to the other person. A way to reduce a breach of privacy is to allocate every individual a unique id, like a primary key..</p></p>
         </div>
         <p></p>
+<div class="InvsomeContent">
+     <p class="initial" style = "text-align:center;">Costs of Investigation and Recovery</p>
+  <p class="hovered" style = "text-align:center;">When you incur a cyber attack, you will always need to pay to investigate how you got attacked and ways mitigate it so that you won't get attacked that way again.</p><p></p>
+    
+</div>
 <P></P>
 
 
@@ -1203,7 +1242,7 @@ Reputational damage is when an individual or organisation makes accusations agai
  
  <div class="containers">
     <div class="boxs1"><p></p><img width="80" src="holding data.png"><P  style="color :black;">Holding Data</P><P  style="color :black;">Many organistions store sensitive data such as personal information and if someone was to be able to get ahold of that information that would be critical.</P></div>
-    <div class="boxs2"><p></p><img width="80" src="payment.png"><P  style="color :black;">Payments</P><P  style="color :black;">For most businesses you have to pay online which means that transactions are always happening. If someone was able to get access to those payments methods then they would have access to critical information.</P></div>
+    <div class="boxs2"><p></p><img width="80" src="payment.png"><P  style="color :black;">Payments</P><P  style="color :black;">For most businesses you have to pay online which means that transactions are always happening. If someone was able to get access to those payments methods then they would have access to critical information. Invoice fraud hacking using social engineering is one of the more common methods with payments.</P></div>
 </div>
 
 <p></p>
@@ -1280,6 +1319,8 @@ Reputational damage is when an individual or organisation makes accusations agai
 
         <div class="box3"><h3 style="color :black;text-align:center;">Use password managers</h3><P style="color :black;">This is where you can store all of your data, so that in case you ever forget, it is all there.</P></div>  
 </div>
+
+<h1 style="color :black;">You should also regularly change your password as well     </h1>
 <p></p>
 <div style="color:black;float:right; width:60%;">
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
@@ -1384,6 +1425,7 @@ Reputational damage is when an individual or organisation makes accusations agai
         <p></p>
  </div>
  <br>
+ <h1> <buttonon> click="openPage('Cyber_Incidents')">Have a log of all your information assets</h1></buttonon>
  <p></p>
  <p></p>
  <p></p>
@@ -1396,6 +1438,7 @@ Reputational damage is when an individual or organisation makes accusations agai
  <h2><b><i class="fa fa-exclamation-triangle" style="font-size:50px;color:red"></i> Regularly update your front line defence</b></h2>
 <p  style="color :black;">Regularly update your anti-virus software and also your firewall by enabling regular updates, this will allow them to better defend your business.</p>
   </div>
+  
     <button  onclick="openPage('Storing_Data')">Next Page</button>
      <button  onclick="openPage('Passwords')">Previous Page</button>
 
@@ -1436,7 +1479,7 @@ Reputational damage is when an individual or organisation makes accusations agai
 <div id="Storing_Data" class="tabcontent">
     
     <h1 style="color :black;">Storing Data</h1>
-  <h3 style="color :black;">There are two main ways to store data. Below is a table comparing the two - local storage and cloud storage.</h3>
+  <h3 style="color :black;">There are two main ways to store data. Below is a table comparing the two - Premises (local) storage and cloud storage.</h3>
  
   
 <style type="text/css">
@@ -1448,12 +1491,16 @@ Reputational damage is when an individual or organisation makes accusations agai
  margin-left: -2em;
 }
 </style>
-
+<h3>You have to consider</h3>
+<li>Price</li>
+<li>Security</li>
+<li>Efficiency</li>
+<li>Convinience</li>
 <table style="width:65%">
   <tr>
     <th style="color :black;">Cloud Storage</th>
     <th style="color :black;">Type</th>
-    <th style="color :black;">Local Storage</th>
+    <th style="color :black;">Premises (Local) Storage</th>
   </tr>
   <tr>
     <td style="color :black;">
@@ -1517,6 +1564,8 @@ Reputational damage is when an individual or organisation makes accusations agai
   </tr>
 </table>
 <br>
+<h2>ultimately it is how easily you are able to access the Backed-up data </h2>
+<h3> style="color :black;"While making sure that the backedup data is secure </h3>
     <button  onclick="openPage('Anti-Virus_Software')">Next Page</button>
      <button  onclick="openPage('Network')">Previous Page</button>
 
@@ -1694,6 +1743,7 @@ Reputational damage is when an individual or organisation makes accusations agai
   <P></P>
  <div id="E"><h3 style="color :black;">Encryption of data</h3><p></p><p style="color :black;">In order for the data you keep to be kept secure there are many ways to do this. One such way is encryption of data. Encryption of the data - ensuring that the data is kept secure until an authorised person accesses the data. It is important to keep the data encrypted because, you are keeping personal data and so if they were ever to go out then you would be liable.</p>
   </div>
+  
   <P></P>
    <div id="G" class="parent"><h3 style="color :black;">GDPR / PDPA</h3><p style="color :black;">An example of data privacy is GDPR/ PDPA  (Personal Data Protection Act), this is a regulation in the EU. It allows individuals to be more in control of their personal information. </p> <ul style="color:black;text-align:left;" >
          <p style="color:black;">There are 8 principles within GDPR:</p>
@@ -1722,13 +1772,16 @@ Reputational damage is when an individual or organisation makes accusations agai
     
 
   </div>
-  <P></P>
-  <div id="C"><h3 style="color :black;">Storing on the cloud</h3><p></p><p style="color :black;">If you ever store your data on the cloud then you need to know about storage, retention and security. You need to be aware where your data is stored locally, but you also need to be aware where your data is stored on the server in the cloud, this is because in different countries there are different rules and regulations. Whatever data that you store on the cloud is available for your cloud provider to see, so nothing is private when you upload something to the cloud. If you ever delete anything then your cloud provider will retain that data for at least 3 months in case you need any of the data back. </p> </div>
-  <P></P>
-  <div id="R"><h3 style="color :black;">Retention of data</h3><p></p><p style="color :black;">After a user has left your company or an employee then there should be a period of how long they should retain the data for. Usually the time that they should retain the data for is about 6 months. Retaining data longer than necessary takes up unnecessary storage space and costs more than needed. However, retaining important data helps prevent excessive expenditure in the future in case you have to look for a file for legal or organizational reasons.</p> </div>
-  <P></P>
   <div id="S"><h3 style="color :black;">Security of data</h3><p></p><p style="color :black;">Ultimately, you as a company, need to make sure that your customers and employees data is secure from any unauthorised access. This is so that you avoid the cost and time of dealing with issues, such as formal complaints and breaches of personal data. If someone ever gets a hold of your personal information that is very bad because they can do lots of different things such as apply for bank loans, use your credit card, drain your credit card and ruin your credit score etc.  </p> </div>
   <P></P>
+   <div id="C"><h3 style="color :black;">Storing on the cloud</h3><p></p><p style="color :black;">If you ever store your data on the cloud then you need to know about storage, retention and security. You need to be aware where your data is stored locally, but you also need to be aware where your data is stored on the server in the cloud, this is because in different countries there are different rules and regulations. Whatever data that you store on the cloud is available for your cloud provider to see, so nothing is private when you upload something to the cloud. If you ever delete anything then your cloud provider will retain that data for at least 3 months in case you need any of the data back. </p> </div>
+  <P></P>
+   <div id="R"><h3 style="color :black;">Retention of data</h3><p></p><p style="color :black;">After a user has left your company or an employee then there should be a period of how long they should retain the data for. Usually the time that they should retain the data for is about 6 months. Retaining data longer than necessary takes up unnecessary storage space and costs more than needed. However, retaining important data helps prevent excessive expenditure in the future in case you have to look for a file for legal or organizational reasons.</p> </div>
+  <P></P>
+  <P></P>
+ 
+ 
+  
 
  <button  onclick="openPage('Cyber_Incidents')">Next Page</button>
   <button  onclick="openPage('Anti-Virus_Software')">Previous Page</button>
@@ -1775,8 +1828,9 @@ Reputational damage is when an individual or organisation makes accusations agai
        <p style="color :black;"> Information assets is a way to manage your organisations information assets. </p>
               <p style="color :black;">What should be in the register?</p>
              <li style="color :black;">Hardware</li>
-       <li style="color :black;">Software</li>
-       <li style="color :black;">Data assets</li>
+       <li style="color :black;">Software-->This shoul also include your virtual machines</li>
+       <li style="color :black;">Data assets--> You need to be able to classify the sensitive data within your organisation </li>
+       <li style="color :black;">User Permissions</li>
        <p style="color :black;">You should always make sure that you do updates and patches so that it can removed any bugs or any gaps in the security.</p>
 
         <h5 style="color :black;">Disaster recovery</h5>
@@ -1790,7 +1844,7 @@ Reputational damage is when an individual or organisation makes accusations agai
       <p style="color :black;">There are 2 types of cyber insurance, there is <b>First-Party insurance</b> and there is also <b>Third Party Insurance</b>. <u>First Party insurance</u> allows you to cover your businesses' own assets. This is where the insurance company will pay you for any direct or indirect costs such as if you lose money, data, intellectual property or even customers to cyber crime. They will even pay for the businesses down time and the reputational damage that the cyber crime has caused. While <u>Third-Party Insurance</u> is where it covers your liabilities, covering the assets of others such as your customers. If a hacker ever got a hold of sensitive data and used that sensitive data to do anything such as use their credit card or withdraw money from their account then the insurance company will cover that. I may also cover any investigations, legal defence or even any civil damages and compensation. IF your business doesn't handle sensitive data such as customers data electronically then having the third-party insurance may not be the most ideal.</p>
     
         <h5 style="color :black;">Cyber Specialist</h5>
-        <p style="color:black;">Cyber specialist play a vital role to a business when it comes to securing your network. They monitor, detect, investigate, analyse and respond to any events that occur.  They protect the systems from risks, threats and vunerabilities. </p>
+        <p style="color:black;">Cyber specialist play a vital role to a business when it comes to securing your network. They monitor, detect, investigate, analyse and respond to any events that occur.  They protect the systems from risks, threats and vunerabilities. They should help update and patch your system </p>
         
          <button  onclick="openPage('Summary')">Next Page</button>
           <button  onclick="openPage('Data_Privacy')">Previous Page</button>
