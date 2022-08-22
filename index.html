@@ -506,8 +506,8 @@ div.right {
     margin-left: 50%;
 }
 
-  .container { width: 100%; margin: 0 auto; height: 220px; }
-    .container [class*='box'] { width:30%; height:220px; float: left; margin-right: 2%; }
+  .container { width: 100%; margin: 0 auto; height: 300px; }
+    .container [class*='box'] { width:30%; height:300px; float: left; margin-right: 2%; }
     .container .box1 { background-color: #FFA500; }
     .container .box2 { background-color: #00FF00; }
     .container .box3 { background-color: #FA4DF8; margin-right: 0; }
@@ -950,7 +950,62 @@ color: white;
 width: 80%;
 height: 30%;
 }
+.EmailsomeContent {
+width: 80%;
+margin-left: 100px;
+border: 2px solid black;
+border-radius: 10px;
+text-align: left;
+padding: 0px;
+color: black;
+height: 30%;
+-webkit-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-ms-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
 
+.EmailsomeContent .hovered { display: none; }
+.EmailsomeContent:hover .hovered { display: block; }
+.EmailsomeContent:hover .initial { display: none; }
+
+.EmailsomeContent:hover {
+background: rgba(209, 16, 16, 1);
+border: 2px solid black;
+overflow: hidden;
+color: white;
+width: 80%;
+height: 30%;
+}
+.PhisomeContent {
+width: 80%;
+margin-left: 100px;
+border: 2px solid black;
+border-radius: 10px;
+text-align: left;
+padding: 0px;
+color: black;
+height: 30%;
+-webkit-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-ms-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
+
+.PhisomeContent .hovered { display: none; }
+.PhisomeContent:hover .hovered { display: block; }
+.PhisomeContent:hover .initial { display: none; }
+
+.PhisomeContent:hover {
+background: rgba(209, 16, 16, 1);
+border: 2px solid black;
+overflow: hidden;
+color: white;
+width: 80%;
+height: 30%;
+}
 .PasswordsomeContent {
 width: 80%;
 margin-left: 100px;
@@ -1460,9 +1515,12 @@ Reputational damage is when an individual or organisation makes accusations agai
     <li style="color :black;">Upper and lower case
     <li style="color :black;">Cannot be a word from the dictionary 
     <li style="color :black;">Shouldn't have personal data 
-</UL></div>
+</UL>
+<p style="color:black;">By employing more than one method of authentification you are adding an additional protection layer.</p>
+<br>
+<br></div>
 
-        <div class="box3"><h3 style="color :black;text-align:center;">Use password managers</h3><P style="color :black;">This is where you can store all of your data, so that in case you ever forget, it is all there.</P></div>  
+        <div class="box3"><h3 style="color :black;text-align:center;">Use password managers</h3><P style="color :black;">This is software application when you can save, store and manage all of your passwords. The passwords are stores in an encrypted format and secure access to all the password information can be provided with the use of a master password. </P></div>  
 </div>
 
 <h1 style="color :black;text-align:center;">You should also regularly change your passwords</h1>
@@ -1485,6 +1543,13 @@ Reputational damage is when an individual or organisation makes accusations agai
   <i class="fa fa-exclamation-triangle fa-stack-2x" style="color:red;" ></i>
 </span>   Don't use common phrases
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <br>
     <br>
    <button  onclick="openPage('Networks')">Next Page</button> 
@@ -1637,17 +1702,23 @@ Reputational damage is when an individual or organisation makes accusations agai
  margin-left: -2em;
 }
 </style>
-<h3>You have to consider</h3>
-<li>Price</li>
+<h3 style="color :black;">You have to consider when deciding between the two types - cloud storage and local storage</h3>
+<ul style="color :black;"><li>Price</li>
 <li>Security</li>
 <li>Efficiency</li>
 <li>Convinience</li>
+<li>Trust</li>
+<li>Support</li>
+<li>Simplicity</li>
+<li>Compatability</li>
+</ul>
 <table style="width:65%">
   <tr>
     <th style="color :black;">Cloud Storage</th>
     <th style="color :black;">Type</th>
     <th style="color :black;">Premises (Local) Storage</th>
   </tr>
+  <tr style="color:black;"><td>Using the cloud refers to storing your data in an online space that can span multiple servers and locations. These are usually maintained by a hosting company.</td><td><b>What is it?</b></td><td>This is the process of storing data on physical storage devices, such as hard disc drives (HDD), solid state drives (SSD), or external storage devices, such as thumb drives. </td></tr>
   <tr>
     <td style="color :black;">
 <div >
@@ -1765,7 +1836,7 @@ Reputational damage is when an individual or organisation makes accusations agai
     
     
     <b><h1 style="color:black;">Anti-Virus Systems</h1></b>
-      <h4 style="color :black;">An Anti-Virus System is a computer program that is used to detect, prevent and protect against malwares.</h4>
+      <h4 style="color :black;">An Anti-Virus System is a computer program that is used to detect, prevent and protect against malwares sooner.</h4>
       <p style="color :black;">There are 3 types of packages
       <li style="color :black;">Free off the shelf packages->Free Off the Shelf Packages are free and available on the internet for download.</li>
       <li style="color :black;">Purchased off the shelf packages->Purchase off the Shelf Packages are available for download from the internet but a purchase is required. </li>
@@ -1815,6 +1886,16 @@ Reputational damage is when an individual or organisation makes accusations agai
             <p class="hovered" style = "text-align:center;">A password manager is a computer program that allows the user to be able to store, generate and manage their passwords for local and online services. It stores all of the passwords in an encrypted database and calculates it on demand. </p></p>
         </div>
         <p></p>
+        <div class="EmailsomeContent">
+            <p class="initial" style = "text-align:center;">Email protection</p>
+            <p class="hovered" style = "text-align:center;">Whether the software includes protection for Windows Mail or Outlook</p>
+        </div>
+        <p></p>
+        <div class="PhisomeContent">
+            <p class="initial" style = "text-align:center;">Anti-pishing</p>
+            <p class="hovered" style = "text-align:center;">Provides a browser extension that protects you from phishing attacks.</p>
+            </div>
+        <p></p>
          </div>
     
     
@@ -1844,7 +1925,7 @@ Reputational damage is when an individual or organisation makes accusations agai
 </ul></div>  
 </div>
 <br>
-<h2 style="text-align:center;color:black;">Always check to ensure you have the most up to date Anti Virus Software, and firewalls and intrusion detection systems are active</h2>
+<h2 style="text-align:center;color:black;">Always check to ensure you have the most up to date Anti Virus Software, and firewalls and intrusion detection systems are active.</h2>
  <br>
  <button  onclick="openPage('Data_Privacy')">Next Page</button>
   <button  onclick="openPage('Storing_Data')">Previous Page</button>
@@ -1886,7 +1967,7 @@ Reputational damage is when an individual or organisation makes accusations agai
 <div id="Data_Privacy" class="tabcontent">
     
     <p></p>
-<div id="DP"><h1 style="color :black;">Data Privacy</h1><p></p><p style="color :black;">Data Privacy is handling sensitive data such as financial data and intellectual property and the organisation needs to follow strict rules when collecting, storing and sharing of that information. It is also referred to as information privacy or in the EU, it is referred to as data protection. </p>
+<div id="DP"><h1 style="color :black;">Data Privacy</h1><p></p><p style="color :black;">Data Privacy is handling sensitive data such as financial data and intellectual property and the organisation needs to follow strict rules when collecting, storing and sharing of that information. It is also referred to as information privacy or in the EU, it is referred to as data protection. It is important to know the laws that regulate within your business, industry and any outsourced activities. </p>
   </div>
   <P></P>
  <div id="E"><h3 style="color :black;">Encryption of data</h3><p></p><p style="color :black;">In order for the data you keep to be kept secure there are many ways to do this. One such way is encryption of data. Encryption of the data - ensuring that the data is kept secure until an authorised person accesses the data. It is important to keep the data encrypted because, you are keeping personal data and so if they were ever to go out then you would be liable.</p>
@@ -1924,7 +2005,7 @@ Reputational damage is when an individual or organisation makes accusations agai
   <P></P>
    <div id="C"><h3 style="color :black;">Storing on the cloud</h3><p></p><p style="color :black;">If you ever store your data on the cloud then you need to know about storage, retention and security. You need to be aware where your data is stored locally, but you also need to be aware where your data is stored on the server in the cloud, this is because in different countries there are different rules and regulations. Whatever data that you store on the cloud is available for your cloud provider to see, so nothing is private when you upload something to the cloud. If you ever delete anything then your cloud provider will retain that data for at least 3 months in case you need any of the data back. </p> </div>
   <P></P>
-   <div id="R"><h3 style="color :black;">Retention of data</h3><p></p><p style="color :black;">After a user has left your company or an employee then there should be a period of how long they should retain the data for. Usually the time that they should retain the data for is about 6 months. Retaining data longer than necessary takes up unnecessary storage space and costs more than needed. However, retaining important data helps prevent excessive expenditure in the future in case you have to look for a file for legal or organizational reasons.</p> </div>
+   <div id="R"><h3 style="color :black;">Retention of data</h3><p></p><p style="color :black;">After a user has left your company or an employee then there should be a period of how long they should retain the data for. Usually the time that they should retain the data for is about 6 months. Retaining data longer than necessary takes up unnecessary storage space and costs more than needed. However, retaining important data helps prevent excessive expenditure in the future in case you have to look for a file for legal or organizational reasons. Implement secure access and regularly check the access logs to ensure the right people have access to the right data.</p> </div>
   <P></P>
   <P></P>
  
@@ -1976,9 +2057,9 @@ Reputational damage is when an individual or organisation makes accusations agai
        <p style="color :black;"> Information assets is a way to manage your organisations information assets. </p>
               <p style="color :black;">What should be in the register?</p>
              <li style="color :black;">Hardware</li>
-       <li style="color :black;">Software-->This shoul also include your virtual machines</li>
-       <li style="color :black;">Data assets--> You need to be able to classify the sensitive data within your organisation </li>
-       <li style="color :black;">User Permissions</li>
+       <li style="color :black;">Software - this should also include your virtual machines</li>
+       <li style="color :black;">Data assets - you need to be able to classify the sensitive data within your organisation </li>
+       <li style="color :black;">User Permissions - including authorised third parties</li>
        <p style="color :black;">You should always make sure that you do updates and patches so that it can removed any bugs or any gaps in the security.</p>
 
         <h5 style="color :black;">Disaster recovery</h5>
