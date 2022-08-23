@@ -223,7 +223,62 @@ color: white;
 width: 60%;
 height: 30%;
 }
+.EsomeContent {
+width: 60%;
+margin-left: 100px;
+border: 2px solid black;
+border-radius: 10px;
+text-align: left;
+padding: 0px;
+color: black;
+height: 30%;
+-webkit-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-ms-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
 
+.EsomeContent .hovered { display: none; }
+.EsomeContent:hover .hovered { display: block; }
+.EsomeContent:hover .initial { display: none; }
+
+.EsomeContent:hover {
+background: rgba(209, 16, 16, 1);
+border: 2px solid black;
+overflow: hidden;
+color: white;
+width: 60%;
+height: 30%;
+}
+.PsomeContent {
+width: 60%;
+margin-left: 100px;
+border: 2px solid black;
+border-radius: 10px;
+text-align: left;
+padding: 0px;
+color: black;
+height: 30%;
+-webkit-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-ms-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
+
+.PsomeContent .hovered { display: none; }
+.PsomeContent:hover .hovered { display: block; }
+.PsomeContent:hover .initial { display: none; }
+
+.PsomeContent:hover {
+background: rgba(209, 16, 16, 1);
+border: 2px solid black;
+overflow: hidden;
+color: white;
+width: 60%;
+height: 30%;
+}
 .ITsomeContent {
 width: 60%;
 margin-left: 100px;
@@ -1188,18 +1243,19 @@ height: 30%;
         <ul style="width:50%; float:left;color:black;height:100px">
       <li>Human Lapses</li>
       <li>Poor Passwords</li>
-      <li>Poor Network</li>
+      <li>Unsecure Network</li>
       <li>Data Breaches</li>
-      <li>Undertraining of staff</li>
+      <li>Undertrained staff</li>
       <li>Lack of inventory management </li>
    </ul>
 
    <ul style="width:50%; float:left;color:black;">
-      <li>Network Patch</li>
-      <li>Updates and Permissions</li>
-      <li>Storage</li>
+      <li>Patches not up to date</li>
+      <li>Operating systems not up to date</li>
+      <li>Register of permissions not updated </li>
+      <li>Poor control over storage</li>
       <li>Malicious Employee Behaviour</li>
-      <li>Using personal devices for work</li>
+      <li>Use of personal devices for business</li>
    </ul>
      <br>
      <br>
@@ -1211,11 +1267,13 @@ height: 30%;
  </div>
  <p></p>
  <p></p>
+ <br>
+ <br>
  <div id="WACT">
  <h1 style="color:black;text-align:center;">What are cyber threats?</h1>
  <p  style="color :black;">Cyber threats are the possible damage or disruption to a computer network or system.</</p1>
  <br>
-<b><H2>These are some of the main types of cyber threats:</H2></b> <P></P>
+<b><H2>The most common cyber threats are as followed:</H2></b> <P></P>
  <div class="left">
         <div class="HsomeContent">
             <p class="initial" style="text-align:center;">Hacking</p>
@@ -1230,6 +1288,11 @@ height: 30%;
 <div class="RsomeContent">
             <p class="initial" style="text-align:center;">Ransomware</p>
             <p class="hovered" style="text-align:center;">Ransomware is a type of malware (malicious software) which is specifically designed to block access to a computer system until a sum of money is paid. </p>
+        </div>
+        <P></P>
+<div class="EsomeContent">
+            <p class="initial" style="text-align:center;">Email Compromise</p>
+            <p class="hovered" style="text-align:center;">Email comprimise is where people who are not authorised to look at you email have access to it and are able to send and read emails without your acknowledgement</p>
         </div>
 </div>
     <div class="right">
@@ -1246,6 +1309,11 @@ height: 30%;
 <div class="DOSsomeContent">
             <p class="initial" style="text-align:center;">Denial of Service</p>
             <p class="hovered" style="text-align:center;">A DOS (Denial Of Service) is a cyber attack in which a perpetrator seeks to make a network unavailable by sending lots of requests to the server which will disrupt their service. </p>
+        </div>
+        <P></P>
+<div class="PsomeContent">
+            <p class="initial" style="text-align:center;">Phishing</p>
+            <p class="hovered" style="text-align:center;">This is the fraudulent practise of sending email pretending to be a reputable company. Individuals do this in order to reveal peoples personal sensitive data such as passwords e.t.c</p>
         </div>
  
  </div>
@@ -1336,17 +1404,17 @@ body {font-family: Verdana, sans-serif; margin:0}
 
 <div class="mySlides">
   <h2>People</h2>
-  <ul><li>Human error</li><li>Under-training staff</li><li>Malicious insider</li><li>Lack of inventory management</li></ul>
+  <ul><li>Human error</li><li>Under-training staff</li><li>Malicious insider</li><li>Lack of inventory management</li><li>List of access register not regularly updated</li></ul>
 </div>
 
 <div class="mySlides">
   <h2>Hygiene</h2>
-  <ul><li>Using default passwords</li><li>Unpatched systems</li><li>Lack of Two Factor Authentification (2FA) / Multi Factor Authentification (MFA) </li><li>Failure to retrieve obsolete machines</li></ul>
+  <ul><li>Using default passwords</li><li>Unpatched systems</li><li>Operating System not up to date</li><li>Unsecure networks</li><li>Lack of Two Factor Authentification (2FA) / Multi Factor Authentification (MFA) </li><li>Failure to retrieve obsolete machines</li></ul>
 </div>
 
 <div class="mySlides">
   <h2>Monitoring failure</h2>
-  <ul><li>Not recognising cyber threats amongst the data</li><li>Not knowing how to respond effectively</li></ul>
+  <ul><li>Not recognising cyber threats amongst the data</li><li>Data breaches</li><li>Not knowing how to respond effectively</li></ul>
 </div>
 
 <div class="mySlides">
@@ -1603,12 +1671,12 @@ Reputational damage is when an individual or organisation makes accusations agai
   <p  style="color :black;text-align:center;">This is a flaw in the hardware, software which is compromised by a threat which can result in a security breach.</p>
   <div class="left">
         <div class="FirewallsomeContent">
-            <p class="initial" style = "text-align:center;">Firewall Issue</p>
+            <p class="initial" style = "text-align:center;">Firewall Monitoring </p>
             <p class="hovered" style = "text-align:center;">A firewall is a device that monitors all of the incoming and outgoing traffic. It has a set of rules of which devices to allow on the network and which not to, blocking any device which does not meet the criteria. Without a firewall, any device will be able to connect to the network.</p></p>
         </div>
         <P></P>
         <div class="GettingsomeContent">
-            <p class="initial" style = "text-align:center;">Getting access to a physical device</p>
+            <p class="initial" style = "text-align:center;">Unauthorised access to a physical device </p>
             <p class="hovered" style = "text-align:center;">Gaining physical access to a device is bad because that device may contain sensitive data that should not go out. One way to reduce this is when you walk away from your desk, make sure to lock it.</p>
         </div>
         <P></P>
@@ -1625,12 +1693,12 @@ Reputational damage is when an individual or organisation makes accusations agai
         </div>
         <P></P>
 <div class="WirelesssomeContent">
-            <p class="initial" style = "text-align:center;">Wireless Access</p>
+            <p class="initial" style = "text-align:center;">Unsecure Wireless Access</p>
             <p class="hovered" style = "text-align:center;">Wireless access is when someone externally is controlling your device, they may not be in the same building, country, continent as you. They will be able to control your movements on your computer, allowing them to have full control allows them to do all sorts of activities.</p></p>
         </div>
         <p></p>
 <div class="UnmanagedsomeContent">
-            <p class="initial" style = "text-align:center;">Unmanaged softwares</p>
+            <p class="initial" style = "text-align:center;">Software updates not maintained</p>
             <p class="hovered" style = "text-align:center;">If there are any unmanaged softwares that haven't been updated or patched with the latest version then anyone can exploit the lower versions. If it is easily exploitable then anyone can access information and data that they shouldn't.</p>
         </div>
         <p></p>
@@ -1691,7 +1759,7 @@ Reputational damage is when an individual or organisation makes accusations agai
 <div id="Storing_Data" class="tabcontent">
     
     <h1 style="color :black;">Storing Data</h1>
-  <h3 style="color :black;">There are two main ways to store data. Below is a table comparing the two - Premises (local) storage and cloud storage.</h3>
+  <h3 style="color :black;">There are two main ways to store data.  Premises (local) storage and cloud storage.</h3>
  
   
 <style type="text/css">
@@ -1713,6 +1781,7 @@ Reputational damage is when an individual or organisation makes accusations agai
 <li>Simplicity</li>
 <li>Compatability</li>
 </ul>
+<h4 style="color :black;">Below is a table comparing the 2 types of storage</h4>
 <table style="width:65%">
   <tr>
     <th style="color :black;">Cloud Storage</th>
@@ -1729,7 +1798,7 @@ Reputational damage is when an individual or organisation makes accusations agai
       <li style="color :black;">Speed
         <li style="color :black;">Efficiency
           <li style="color :black;">Service
-            <li style="color :black;">Easiness
+            <li style="color :black;">Ease of use 
               <li style="color :black;">Costs
                 <br>
 </ul></div></td>
@@ -1926,7 +1995,7 @@ Reputational damage is when an individual or organisation makes accusations agai
 </ul></div>  
 </div>
 <br>
-<h2 style="text-align:center;color:black;">Always check to ensure you have the most up to date Anti Virus Software, and firewalls and intrusion detection systems are active.</h2>
+<h2 style="text-align:center;color:black;">Always check to ensure you have the most up to date Anti Virus Software, firewalls and that your intrusion detection systems are always active.</h2>
  <br>
  <button  onclick="openPage('Data_Privacy')">Next Page</button>
   <button  onclick="openPage('Storing_Data')">Previous Page</button>
@@ -1968,14 +2037,24 @@ Reputational damage is when an individual or organisation makes accusations agai
 <div id="Data_Privacy" class="tabcontent">
     
     <p></p>
-<div id="DP"><h1 style="color :black;">Data Privacy</h1><p></p><p style="color :black;">Data Privacy is handling sensitive data such as financial data and intellectual property and the organisation needs to follow strict rules when collecting, storing and sharing of that information. It is also referred to as information privacy or in the EU, it is referred to as data protection. It is important to know the laws that regulate within your business, industry and any outsourced activities. </p>
+<div id="DP"><h1 style="color :black;">Data Privacy</h1><p></p><p style="color :black;">Data Privacy is handling sensitive data such as financial data and intellectual property and the organisation needs to follow strict rules when collecting, storing and sharing of that information. It is also referred to as information privacy or in the EU, it is referred to as data protection. There are 4 key considerations that are important for protecting your data 1) Encyrption, 2) Security/Permissions, 3) Storage, 4) Retention</p>
+<br>
+<br>
+<p>It is important to know the laws that regulate within your business, industry and any outsourced activies. </p>
   </div>
   <P></P>
  <div id="E"><h3 style="color :black;">Encryption of data</h3><p></p><p style="color :black;">In order for the data you keep to be kept secure there are many ways to do this. One such way is encryption of data. Encryption of the data - ensuring that the data is kept secure until an authorised person accesses the data. It is important to keep the data encrypted because, you are keeping personal data and so if they were ever to go out then you would be liable.</p>
   </div>
-  
+  <p></p>
+  <div id="S"><h3 style="color :black;">Security of data</h3><p></p><p style="color :black;">Ultimately, you as a company, need to make sure that your customers and employees data is secure from any unauthorised access. This is so that you avoid the cost and time of dealing with issues, such as formal complaints and breaches of personal data. If someone ever gets a hold of your personal information that is very bad because they can do lots of different things such as apply for bank loans, use your credit card, drain your credit card and ruin your credit score etc.  </p> </div>
   <P></P>
-   <div id="G" class="parent"><h3 style="color :black;">GDPR / PDPA</h3><p style="color :black;">An example of data privacy is GDPR/ PDPA  (Personal Data Protection Act), this is a regulation in the EU. It allows individuals to be more in control of their personal information. </p> <ul style="color:black;text-align:left;" >
+   <div id="C"><h3 style="color :black;">Storing on the cloud</h3><p></p><p style="color :black;">If you ever store your data on the cloud then you need to know about storage, retention and security. You need to be aware where your data is stored locally, but you also need to be aware where your data is stored on the server in the cloud, this is because in different countries there are different rules and regulations. Whatever data that you store on the cloud is available for your cloud provider to see, so nothing is private when you upload something to the cloud. If you ever delete anything then your cloud provider will retain that data for at least 3 months in case you need any of the data back. </p> </div>
+  <P></P>
+   <div id="R"><h3 style="color :black;">Retention of data</h3><p></p><p style="color :black;">After a user has left your company or an employee then there should be a period of how long they should retain the data for. Usually the time that they should retain the data for is about 6 months. Retaining data longer than necessary takes up unnecessary storage space and costs more than needed. However, retaining important data helps prevent excessive expenditure in the future in case you have to look for a file for legal or organizational reasons. Implement secure access and regularly check the access logs to ensure the right people have access to the right data.</p> </div>
+  <P></P>
+  <P></P>
+   <div id="G" class="parent"><h3 style="color :black;">GDPR / PDPA</h3><p style="color :black;">An example of data privacy is the European GDPR or the Singapore PDPA  (Personal Data Protection Act), this is a regulation in the EU. It allows individuals to be more in control of their personal information. </p>
+   <ul style="color:black;text-align:left;" >
          <p style="color:black;">There are 8 principles within GDPR:</p>
       <li>Lawfulness</li>
          <li>Fairness and transparency</li>
@@ -1985,6 +2064,7 @@ Reputational damage is when an individual or organisation makes accusations agai
          <li>Storage Limitation</li>
          <li>Integrity and Confidentiality</li>
          <li>Accountability</li>
+         <li style="color:red;"></li>
    </ul>
 
    <ul style="color:black;text-align:left;">
@@ -2002,12 +2082,7 @@ Reputational damage is when an individual or organisation makes accusations agai
     
 
   </div>
-  <div id="S"><h3 style="color :black;">Security of data</h3><p></p><p style="color :black;">Ultimately, you as a company, need to make sure that your customers and employees data is secure from any unauthorised access. This is so that you avoid the cost and time of dealing with issues, such as formal complaints and breaches of personal data. If someone ever gets a hold of your personal information that is very bad because they can do lots of different things such as apply for bank loans, use your credit card, drain your credit card and ruin your credit score etc.  </p> </div>
-  <P></P>
-   <div id="C"><h3 style="color :black;">Storing on the cloud</h3><p></p><p style="color :black;">If you ever store your data on the cloud then you need to know about storage, retention and security. You need to be aware where your data is stored locally, but you also need to be aware where your data is stored on the server in the cloud, this is because in different countries there are different rules and regulations. Whatever data that you store on the cloud is available for your cloud provider to see, so nothing is private when you upload something to the cloud. If you ever delete anything then your cloud provider will retain that data for at least 3 months in case you need any of the data back. </p> </div>
-  <P></P>
-   <div id="R"><h3 style="color :black;">Retention of data</h3><p></p><p style="color :black;">After a user has left your company or an employee then there should be a period of how long they should retain the data for. Usually the time that they should retain the data for is about 6 months. Retaining data longer than necessary takes up unnecessary storage space and costs more than needed. However, retaining important data helps prevent excessive expenditure in the future in case you have to look for a file for legal or organizational reasons. Implement secure access and regularly check the access logs to ensure the right people have access to the right data.</p> </div>
-  <P></P>
+  
   <P></P>
  
  
@@ -2053,27 +2128,35 @@ Reputational damage is when an individual or organisation makes accusations agai
       <h2 style="color :black;">What to do when you have a cyber incident? </h2>
       <p style="color :black;">A cyber incident is an event that could jeopardize the confidentiality, integrity, or availability of digital information or information systems.</p>
       
-      <h4 style="color :black;">The two things that are very important are information assets and data recovery.</h4>
-      <h5 style="color :black;">Information assets</h5>
+      <h3 style="color :black;">The two things that are very important are information assets and data recovery.</h3>
+      <u style="color :black;"><h4 style="color :black;">Information assets</h4></u>
        <p style="color :black;"> Information assets is a way to manage your organisations information assets. </p>
               <p style="color :black;">What should be in the register?</p>
-             <li style="color :black;">Hardware</li>
+             <li style="color :black;">Hardware- ensure that you have a log of all your devices </li>
        <li style="color :black;">Software - this should also include your virtual machines</li>
-       <li style="color :black;">Data assets - you need to be able to classify the sensitive data within your organisation </li>
        <li style="color :black;">User Permissions - including authorised third parties</li>
+     <li style="color :black;">Log of virtual machines </li>
+  
        <p style="color :black;">You should always make sure that you do updates and patches so that it can removed any bugs or any gaps in the security.</p>
 
-        <h5 style="color :black;">Disaster recovery</h5>
+       <u style="color :black;"><h4 style="color :black;">Disaster recovery--> This is the process of regularly backing up your data and testing procedures </h4></u>
       <p style="color:black;">You should always ensure that you regularly do a disaster recovery drill. This is the process of regularly (once every 6 months) go and recover your data from where it is stored in case you ever need to access it when the time comes. </p>
      
+     <p style="color :black;">There are 3 ways to deal with cyber risks: </p>
+     <ol type="1">
+     <li style="color :black;">Accept it-->This is where you keeo yourself cyber safe and pay for any consequences</li>
+    <li style="color :black;">Mitigate it--> This is where you pay a retainer to a cyber incidence responce company </li>
+      <li style="color :black;">Offload it--> This is where you purchase cyber insurance</li>
+</ol> 
      
-     <h4 style="color :black;">This must all be regularly tested.</h4>
+     
+     <h5 style="color :black;">This must all be regularly tested.</h5>
      
      <h4 style="color :black;">However, if you need to remediate a cyber incident. You should look at cyber insurance and cyber specialists.</h4>
-      <h5 style="color :black;">Cyber Insurance</h5>
+     <u style="color :black;"><h4 style="color :black;">Cyber Insurance</h4></u>
       <p style="color :black;">There are 2 types of cyber insurance, there is <b>First-Party insurance</b> and there is also <b>Third Party Insurance</b>. <u>First Party insurance</u> allows you to cover your businesses' own assets. This is where the insurance company will pay you for any direct or indirect costs such as if you lose money, data, intellectual property or even customers to cyber crime. They will even pay for the businesses down time and the reputational damage that the cyber crime has caused. While <u>Third-Party Insurance</u> is where it covers your liabilities, covering the assets of others such as your customers. If a hacker ever got a hold of sensitive data and used that sensitive data to do anything such as use their credit card or withdraw money from their account then the insurance company will cover that. I may also cover any investigations, legal defence or even any civil damages and compensation. IF your business doesn't handle sensitive data such as customers data electronically then having the third-party insurance may not be the most ideal.</p>
     
-        <h5 style="color :black;">Cyber Specialist</h5>
+       <u style="color :black;"><h4 style="color :black;">Cyber Specialist</h4></u>
         <p style="color:black;">Cyber specialist play a vital role to a business when it comes to securing your network. They monitor, detect, investigate, analyse and respond to any events that occur.  They protect the systems from risks, threats and vunerabilities. They should help update and patch your system </p>
         
          <button  onclick="openPage('Summary')">Next Page</button>
