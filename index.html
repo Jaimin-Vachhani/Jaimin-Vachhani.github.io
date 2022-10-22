@@ -74,6 +74,17 @@ body, html {
   margin-left: auto;
   text-align:center;
 }
+#WICRTHING {
+  background-color: Black;
+  width: 80%;
+  border: 15px Red;
+  padding: 2%;
+  margin: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align:center;
+}
+
   #WSTAT {
   background-color: Black;
   width: 80%;
@@ -1340,6 +1351,39 @@ height: 30%;
             font-weight: bold;
             font-family: sans-serif;
         }
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container5 {
+  border-radius: 5px;
+  background-color: #000000;
+  padding: 20px;
+}
 </style>
 </head>
 <body>
@@ -1573,9 +1617,9 @@ function showSlides(n) {
 </div>
 
  <br>
-  <img src ="Cyber Methoods.png" style="display:block; margin-left:auto;margin-right:auto;width:50%;">
+  <center><iframe width="850" height="500" src="https://www.youtube.com/embed/b4kWfAAz678?start=104" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
   <br>
-<p  style="color :black;text-align:center;">This graph is showing us the most common ways to stay cyber safe. <i> (Researchgate 2019)</i></p> 
+<p  style="color :black;text-align:center;">This video is a clip that Matthew Bowler  <i> (Researchgate 2019)</i></p> 
 
 
 
@@ -1618,7 +1662,6 @@ Reputational damage is when an individual or organisation makes accusations agai
 //Get the button
 <div id="toping"></div>
 </script>
-
  <br>
 </div>
     
@@ -1637,6 +1680,9 @@ Reputational damage is when an individual or organisation makes accusations agai
 <div id="WSTAT" class="blink_me" style="width:50%;background-color:#FF9AA2;color:BLACK;"><h1>60%</h1><p> Of Small and Medium sized Businesses go under 6 months following a cyber attack</p>
 </div>
 <p></p>
+<div id="WICRTHING">INFORMATION PURPOSES ONLY: The material and information on this website have been prepared or assembled by Tanglin Cyber Focus and are intended for information purposes only.  </p>
+    </div>
+    
 <div>
         <button onclick="scrollWin()" style="float: left;">Top</button>
         <button  onclick="openPage('Passwords')" style="float:right;">Next Page</button>
@@ -1648,8 +1694,6 @@ function scrollWin() {
   window.scrollTo(0, 0);
 }
 </script>  
-    
-    
     
     
     
@@ -2503,12 +2547,35 @@ function scrollWin() {
 <p style="text-align:center;"><a href="https://www.mas.gov.sg/regulation/cyber-security">Monetary Authority of Singapore (MAS)</a></p>
 
 <br>
+<div class="container5">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div
 <br>
-<h4 style="color:black;text-align:center;"> If you have any further questions, please feel free to reach out to <i><b><u> <a href = "mailto: Jaimin.vachhani@tts.edu.sg">Jaimin @ Tanglin Cyber Focus</a></u></b></i></h4> 
+<h4 style="color:black;text-align:center;"> If you have any further questions, please feel free to reach out to <i><b><u> <a href = "mailto: Jaimin.vachhani@tts.edu.sg"> @ Tanglin Cyber Focus</a></u></b></i></h4> 
 <br>
 <br>
 
-   <rssapp-wall id="tgh1B3tGizkgV1TC"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+   <rssapp-wall id="t1ubs9RuK6nKmFCm"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
 <br>
 <br>
 
